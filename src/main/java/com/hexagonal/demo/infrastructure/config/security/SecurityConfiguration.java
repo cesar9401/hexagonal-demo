@@ -26,7 +26,7 @@ public class SecurityConfiguration {
                 .cors(Customizer.withDefaults())
                 .authorizeHttpRequests(
                         (requests) -> requests
-                                .requestMatchers("public/say-hello", "categories/**")
+                                .requestMatchers("public/**", "categories/**")
                                 .permitAll()
                                 .anyRequest()
                                 .authenticated()
