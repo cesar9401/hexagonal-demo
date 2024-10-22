@@ -1,4 +1,4 @@
-package com.hexagonal.demo.infrastructure.adapters.input.rest;
+package com.hexagonal.demo.infrastructure.adapters.input.rest.adapter;
 
 import com.hexagonal.demo.application.ports.input.CategoryUseCase;
 import com.hexagonal.demo.domain.Category;

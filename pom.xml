@@ -112,6 +112,11 @@
 			<version>${querydsl.version}</version>
 			<classifier>jakarta</classifier>
 		</dependency>
+		<!-- kafka -->
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
 		<!-- test dependencies -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -136,6 +141,11 @@
 		<dependency>
 			<groupId>org.testcontainers</groupId>
 			<artifactId>postgresql</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

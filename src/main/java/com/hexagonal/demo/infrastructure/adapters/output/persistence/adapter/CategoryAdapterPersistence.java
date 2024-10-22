@@ -1,4 +1,4 @@
-package com.hexagonal.demo.infrastructure.adapters.output.persistence;
+package com.hexagonal.demo.infrastructure.adapters.output.persistence.adapter;
 
 import com.hexagonal.demo.application.ports.output.CategoryOutputPort;
 import com.hexagonal.demo.domain.Category;

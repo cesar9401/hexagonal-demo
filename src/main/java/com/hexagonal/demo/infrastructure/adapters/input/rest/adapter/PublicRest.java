@@ -1,4 +1,4 @@
-package com.hexagonal.demo.infrastructure.adapters.input.rest;
+package com.hexagonal.demo.infrastructure.adapters.input.rest.adapter;
 
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.web.bind.annotation.GetMapping;
